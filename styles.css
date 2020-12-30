@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+.py-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+#bg-phone {
+  background: url(/Image/Vector\ Smart\ Object3.png);
+}
+
+#bg-download {
+  background: url(/Image/Vector\ Smart\ Object7.png);
+}
+
+i {
+  color: green;
+  font-size: 2rem;
+}
+
+#rotat {
+  position: relative;
+}
+#rotate-img {
+  position: absolute;
+  transform:rotate(-30deg);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#avatar {
+  border-radius: 50%;
+}
+
+#container-sm {
+  width: 768px;
+}
