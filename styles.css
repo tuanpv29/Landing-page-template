@@ -3,15 +3,11 @@
 }
 
 body {
-  background-color: #f8f9fa;
+  background-color: white;
 }
 .py-7 {
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-#bg-phone {
-  background: url(/Image/Vector\ Smart\ Object3.png);
 }
 
 #bg-download {
@@ -19,7 +15,7 @@ body {
 }
 
 i {
-  color: green;
+  color: black;
   font-size: 2rem;
 }
 
@@ -40,4 +36,23 @@ i {
 
 #container-sm {
   width: 768px;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#tag {
+  border-radius: 50px;
+}
+
+.star {
+  color: yellow;
 }
